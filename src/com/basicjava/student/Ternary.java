@@ -1,0 +1,11 @@
+package com.basicjava.student;
+
+public class Ternary {
+    public static void main(String[] args) {
+        int a = 10, b = 5;
+
+        // Ternary operation
+        int max = (a > b) ? a : b;
+        System.out.println("Max value is: " + max);
+    }
+}
